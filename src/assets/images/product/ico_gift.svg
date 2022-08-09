@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>98764B99-7BF4-4BAD-BAB8-76575106638B</title>
+    <g id="01_상단케이스" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="06_상품카테고리_02_상품상세_01_상단케이스_02_상품평-없는경우" transform="translate(-980.000000, -694.000000)" stroke="#000000">
+            <g id="[contents]" transform="translate(360.000000, 189.000000)">
+                <g id="product_detail" transform="translate(620.000000, 51.000000)">
+                    <g id="혜택안내" transform="translate(0.000000, 233.000000)">
+                        <g id="4" transform="translate(0.000000, 203.000000)">
+                            <g id="icon_24-/product/gift" transform="translate(0.000000, 18.000000)">
+                                <g id="Group" transform="translate(4.000000, 4.000000)">
+                                    <rect id="Rectangle" x="0" y="4.44444444" width="16" height="3.55555556" rx="1.5"></rect>
+                                    <line x1="8" y1="4.44444444" x2="8" y2="16" id="Path"></line>
+                                    <path d="M14.2222222,8 L14.2222222,14.2222222 C14.2222222,15.2040618 13.426284,16 12.4444444,16 L3.55555556,16 C2.573716,16 1.77777778,15.2040618 1.77777778,14.2222222 L1.77777778,8" id="Path"></path>
+                                    <path d="M4,4.44444444 C2.77270056,4.44444444 1.77777778,3.44952167 1.77777778,2.22222222 C1.77777778,0.994922778 2.77270056,-1.29082075e-13 4,-1.29082075e-13 C5.75487239,-0.0305747355 7.34198278,1.73288126 8,4.44444444 C8.65801722,1.73288126 10.2451276,-0.0305747355 12,-1.31055757e-13 C13.2272994,-1.31055757e-13 14.2222222,0.994922778 14.2222222,2.22222222 C14.2222222,3.44952167 13.2272994,4.44444444 12,4.44444444" id="Path"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

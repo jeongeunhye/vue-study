@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="58px" viewBox="0 0 58 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>350DB296-6B15-48AE-804A-901D271EFA6E</title>
+    <defs>
+        <filter x="-7.1%" y="-5.7%" width="114.3%" height="111.4%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="02_검색결과" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02_홈메인_03_검색_02_검색결과_05_포토,동영상후기_01_리스트" transform="translate(-779.000000, -442.000000)">
+            <g id="[popup]" transform="translate(553.000000, 265.000000)">
+                <g id="리스트" transform="translate(30.000000, 133.000000)">
+                    <g id="비디오" transform="translate(152.000000, 0.000000)">
+                        <g id="Icon/controls/play" transform="translate(44.000000, 44.000000)">
+                            <circle id="Oval" fill-opacity="0.4" fill="#000000" cx="29" cy="29" r="29"></circle>
+                            <polygon id="Shape-1" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round" filter="url(#filter-1)" points="24 21 24 38.5 38 29.7497109"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

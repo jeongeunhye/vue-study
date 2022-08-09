@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>pc_icon_24_arrow_right_nor</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="control/&gt;2" transform="translate(-10.000000, -10.000000)" fill-rule="nonzero" stroke="#777777" stroke-width="1.5">
+            <g id="&gt;" transform="translate(10.000000, 10.000000)">
+                <polyline id="Path" transform="translate(13.000000, 12.000000) rotate(-270.000000) translate(-13.000000, -12.000000) " points="5 16 13 8 13 8 21 16"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

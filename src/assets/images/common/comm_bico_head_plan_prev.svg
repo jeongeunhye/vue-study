@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>40A4CF61-AA42-41E9-B349-9006AE007BDE</title>
+    <g id="BTN" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-109.000000, -508.000000)" id="pc_btn_34_paging">
+            <g transform="translate(100.000000, 499.000000)" id="&lt;">
+                <path d="M33.75,0.25 L33.75,33.75 L4,33.75 C2.96446609,33.75 2.02696609,33.330267 1.34834957,32.6516504 C0.669733047,31.9730339 0.25,31.0355339 0.25,30 L0.25,30 L0.25,4 C0.25,2.96446609 0.669733047,2.02696609 1.34834957,1.34834957 C2.02696609,0.669733047 2.96446609,0.25 4,0.25 L4,0.25 L33.75,0.25 Z" id="Rectangle" stroke="#CBCCCE" stroke-width="0.5" fill-opacity="0.5" fill="#FFFFFF"></path>
+                <polyline id="Path" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero" transform="translate(16.227273, 17.000000) scale(-1, 1) rotate(-270.000000) translate(-16.227273, -17.000000) " points="10.0454545 20.0909091 16.2272727 13.9090909 16.2272727 13.9090909 22.4090909 20.0909091"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

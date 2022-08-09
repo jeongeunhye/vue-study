@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>1846DDAD-372D-424F-A222-F9354E70BC90</title>
+    <g id="GNB" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-162.000000, -2209.000000)" id="[Quick]" stroke="#FFFFFF">
+            <g transform="translate(105.000000, 1774.000000)">
+                <g id="product" transform="translate(0.000000, 108.000000)">
+                    <g id="TOP_btn" transform="translate(0.000000, 318.000000)">
+                        <g id="icon_btn_top" transform="translate(57.000000, 9.000000)">
+                            <g id="icon" transform="translate(3.000000, 1.500000)">
+                                <polyline id="Path" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero" transform="translate(3.000000, 2.500000) scale(-1, 1) translate(-3.000000, -2.500000) " points="0 4 3 1 3 1 6 4"></polyline>
+                                <rect id="Rectangle" stroke-width="0.5" x="2.75" y="1" width="1" height="8.5" rx="0.5"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

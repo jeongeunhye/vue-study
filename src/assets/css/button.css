@@ -1,0 +1,128 @@
+@charset "utf-8";
+/*
+ * 파일정의 : button.css
+ * 파일설명 : button css
+ * 작성자 : 정은혜
+ * 주의사항 : 주석표기는 페이지 접근방법을 알수 있도록 표시
+ * 최초작성일: 2021/04/09
+ * 최종수정일: 2021/04/09
+ -
+*/
+
+/**********************************************************************************
+** common button
+***********************************************************************************/
+a.btn, .btn, .btn-lg, a.btn-lg, .btn-sm, a.btn-sm, .btn-xsm, a.btn-xsm{display: inline-flex; align-items: center; justify-content: center; min-width: 160px; padding: 0 18px 3px 17px; border: 1px solid #000; border-radius: 6px; background: #000; color: #fff; font-weight: 700; vertical-align: top; text-align: center; word-break: keep-all; word-wrap: break-word; transition: background-color 0.23s, color 0.23s, border-color 0.23s; -webkit-transition: background-color 0.23s, color 0.23s, border-color 0.23s; letter-spacing: -1px;}
+a.btn.disabled, .btn[disabled], .btn[readonly], .btn-lg[disabled], .btn-lg[readonly], a.btn-lg.disabled, .btn-sm[disabled], .btn-sm[readonly], a.btn-sm.disabled, .btn-xsm[disabled], .btn-xsm[readonly], a.btn-xsm.disabled{opacity: .5; pointer-events: none;}
+a.btn.disabled .text, .btn[disabled] .text, .btn[readonly] .text, .btn-lg[disabled] .text, .btn-lg[readonly] .text, a.btn-lg.disabled .text, .btn-sm[disabled] .text, .btn-sm[readonly] .text, a.btn-sm.disabled .text, .btn-xsm[disabled] .text, .btn-xsm[readonly] .text, a.btn-xsm.disabled .text{opacity: .5;}
+
+/* 크기 */
+a.btn-lg, .btn-lg, .ui-widget a.btn-lg, .ui-widget .btn-lg{min-width: 328px; height: 56px; border-radius: 8px; font-size: 17px; font-weight: 700; line-height: 21px;}
+a.btn, .btn, .ui-widget a.btn, .ui-widget .btn{height: 46px; padding-bottom: 1px; font-size: 16px; line-height: 20px;}
+a.btn-sm, .btn-sm, .ui-widget a.btn-sm, .ui-widget .btn-sm{min-width: 104px; height: 36px; padding: 0 12px 2px 11px; font-size: 14px; font-weight: 400; line-height: 18px;}
+a.btn-xsm, .btn-xsm, .ui-widget a.btn-xsm, .ui-widget .btn-xsm{ height: 28px; padding: 0 10px; border-radius: 4px; font-weight: 400; font-size: 13px; line-height: 16px; letter-spacing: -1px;}
+
+/* 컬러 */
+a.btn-black, .btn-black{border-color: #000; background-color: #000; color: #fff;}
+a.btn-black:active, .btn-black:active, a.btn-black:focus, .btn-black:focus, a.btn-black:hover, .btn-black:hover{border-color: #555; background-color: #555;}
+a.btn-lnblack, .btn-lnblack{background-color: #fff; color: #000;}
+a.btn-lnblack:active, .btn-lnblack:active, a.btn-lnblack:focus, .btn-lnblack:focus, a.btn-lnblack:hover, .btn-lnblack:hover{background-color: #f3f3f3;}
+
+a.btn-spot, .btn-spot{border-color: #f50d87; background-color: #f50d87; color: #fff;}
+a.btn-spot:active, .btn-spot:active, a.btn-spot:focus, .btn-spot:focus, a.btn-spot:hover, .btn-spot:hover{border-color: #cf016c; background-color: #cf016c;}
+a.btn-lnspot, .btn-lnspot{border-color: #f50d87; background-color: #fff; color: #f50d87;}
+a.btn-lnspot:active, .btn-lnspot:active, a.btn-lnspot:focus, .btn-lnspot:focus, a.btn-lnspot:hover, .btn-lnspot:hover{background-color: #fff2f7;}
+
+a.btn-gray, .btn-gray{border-color: #777; background-color: #777; color: #fff;}
+a.btn-gray:active, .btn-gray:active, a.btn-gray:focus, .btn-gray:focus, a.btn-gray:hover, .btn-gray:hover{border-color: #999; background-color: #999; color: #fff;}
+a.btn-lngray, .btn-lngray{border-color: #ccc; background-color: #fff; color: #333;}
+a.btn-lngray:active, .btn-lngray:active, a.btn-lngray:focus, .btn-lngray:focus, a.btn-lngray:hover, .btn-lngray:hover{background-color: #f3f3f3;}
+
+/* round 버튼 */
+a.btn-sm.btn-round, .btn-sm.btn-round{padding: 0 18px; border-radius: 18px;}
+
+/* btn line 컬러인경우 font-weight 조절 */
+a.btn.btn-lnblack, .btn.btn-lnblack, .ui-widget a.btn.btn-lnblack, .ui-widget .btn.btn-lnblack,
+a.btn.btn-lngray, .btn.btn-lngray, .ui-widget a.btn.btn-lngray, .ui-widget .btn.btn-lngray{ letter-spacing: -1px;}
+
+/**********************************************************************************
+** etc button
+***********************************************************************************/
+.btn-delivery{display: inline-flex; align-items: center; justify-content: center; vertical-align: top; text-align: center; word-break: keep-all; word-wrap: break-word; height: 36px; padding: 0 18px; font-size: 15px; font-weight: 700; line-height: 19px; border: 1px solid #222; background-color: #222; color: #fff; border-radius: 18px;}
+a.link-text-more, .link-text-more{display: inline-block; vertical-align: top; font-size: 14px; color: #777; letter-spacing: -0.54px; line-height: 1;}
+a.link-text-more:after, .link-text-more:after{content: ''; display: inline-block; width: 12px; height: 12px; margin: 2px 0 0 3px; background: url('../images/common/comm_text_link_arr.svg'); vertical-align: top;}
+a.link-text-more.bold, .link-text-more.bold{color: #333; font-weight: 700;}
+a.link-text-more.bold:after, .link-text-more.bold:after{width: 12px; height: 12px; background: url('../images/common/comm_text_link_bold_arr.svg');}
+
+/**********************************************************************************
+** icon button
+***********************************************************************************/
+[class*=btn] [class*=ico-]{position: relative; flex-shrink: 0; display: inline-block; vertical-align: top;}
+[class*=btn] .text{position: relative; display: inline-block; vertical-align: top;}
+[class*=btn] [class*=ico-] + .text{margin: 0 0 0 6px;}
+[class*=btn] .text + [class*=ico-]{margin: 0 0 0 6px;}
+
+.btn-sm .ico-alarm-sm, .btn-xsm .ico-alarm-sm{transform: translateY(-1px);}
+.btn-alarm{display: inline-block; height: 46px; width: 46px; border: 1px solid #ccc; border-radius: 6px; background: url('../images/product/bico_alarm.svg') center no-repeat; vertical-align: top;}
+.btn-alarm.is-active{border-color: #f50d87; background-image: url('../images/product/bico_alarm_on.svg')}
+
+.btn-wish{display: inline-block; width: 36px; height: 36px; border-radius: 100%; background: url('../images/product/bico_wish.svg') 0 0 no-repeat; vertical-align: top; transition: background .15s ease-out;}
+.btn-wish.is-active{background: url('../images/product/bico_wish_on.svg') 0 0 / 100% no-repeat;}
+.btn-cart{display: inline-block; width: 36px; height: 36px; border: 1px solid #555; border-radius: 6px; background: url('../images/product/bico_cart.svg') center no-repeat; vertical-align: top;}
+.btn-share{display: inline-block; width: 56px; height: 56px; border: 1px solid #e5e5e5; border-radius: 100%; background: rgba(255, 255, 255, .2) url('../images/common/comm_bico_share.svg') center no-repeat; vertical-align: top;}
+
+.btn-review-like{min-width: 66px; height: 28px; padding: 2px 7px 0 6px; border: 1px solid #ccc; border-radius: 4px;}
+.btn-review-like .text{display: inline-block; line-height: 16px; font-size: 13px; letter-spacing: -1px; vertical-align: top; color: #333;}
+.btn-review-like .ico-like{margin-left: 2px;}
+.btn-review-like.is-active{border-color: #f50d87; }
+.btn-review-like.is-active .text {color: #f50d87;letter-spacing: 0;}
+
+.btn-more-fold { font-size: 14px; line-height: 20px; letter-spacing: -1px; color: #999; }
+.btn-more-fold .ico-more-arr { display: inline-block; width: 12px; height: 12px; background-image: url('../images/common/comm_bico_more_arr_off.svg'); }
+.related-keyword-wrap.is-active .btn-more-fold .ico-more-arr { background-image: url('../images/common/comm_bico_more_arr_on.svg'); }
+.btn-more-fold .text ~ .ico-more-arr { margin-top: 4px; margin-left: 4px; }
+
+.review-control-wrap [class*=ico-review-] { width: 54px; height: 104px; }
+.ico-review-prev { background-image: url('../images/product/bico_review_prev.svg'); }
+.ico-review-next { background-image: url('../images/product/bico_review_next.svg'); }
+
+.btn-guide{display: inline-block; width: 16px; height: 16px; background: url('../images/product/bico_pop_guide.svg'); vertical-align: top;}
+
+a.btn-view-arr, .btn-view-arr { display: inline-block; letter-spacing: -0.2px; color: #999; }
+a.btn-view-arr .text, .btn-view-arr .text {position: relative; display: inline-block; font-size: 11px; font-weight: 700; padding-top: 1px; line-height: 16px; vertical-align: top; text-decoration: underline;}
+a.btn-view-arr .text + .ico-view-arr, .btn-view-arr .text + .ico-view-arr { transform: translateY(4px); margin-left: 2px;}
+
+.ico-swiper-control { width: 22px; height: 22px; background-size: 21px; background-position: 0; background-repeat: no-repeat; background-image: url('../images/common/comm_bico_swiper_stop.svg'); }
+.is-stop .ico-swiper-control { background-image: url('../images/common/comm_bico_swiper_play.svg'); }
+
+/**********************************************************************************
+** 버튼정렬
+***********************************************************************************/
+.btn-wrap{font-size: 0; text-align: center;}
+.btn-wrap [class*=btn] + [class*=btn]{margin-left: 5px;}
+.btn-wrap [class*=btn] + .btn, .btn-wrap [class*=btn] + .btn-lg,
+.btn-wrap .btn + [class*=btn], .btn-wrap .btn-lg + [class*=btn]{margin-left: 6px;}
+
+.btn-wrap.no-gap{}
+.btn-wrap.no-gap [class*=btn]{border-radius: 0;}
+.btn-wrap.no-gap [class*=btn] + [class*=btn]{position: relative; margin-left: 0;}
+.btn-wrap.no-gap [class*=btn] + [class*=btn]:before{content: ''; position: absolute; top: 50%; left: 0; width: 1px; height: 20px; background: #fff; opacity: .3; transform: translateY(-50%);}
+
+.btn-wrap.even{display: flex;}
+.btn-wrap.even [class*=btn]{flex: 1; min-width: auto;}
+
+
+/**********************************************************************************
+** 페이징
+***********************************************************************************/
+.paging { margin-top: 24px; text-align: center; font-size: 0; }
+.paging .page-num,
+.paging .btn-paging { display: inline-block; }
+.paging .page-num { padding: 7px 1px 0 24px; vertical-align: top; }
+.paging .page-num .text-ellipsis,
+.paging .page-num .btn-num { display: inline-block; margin-right: 23px; color: #bbb; font-weight: 700; font-size: 15px; line-height: 20px; }
+.paging .page-num .text-ellipsis { margin-left: 1px; margin-right: 24px; }
+.paging .page-num .btn-num.is-active { color: #333; }
+
+.paging .btn-paging { width: 34px; height: 34px; padding: 10px 0; background: #fff; border: 1px solid #e5e5e5; border-radius: 34px; text-align: center; font-size: 13px; }
+.paging .btn-paging[disabled], .paging .btn-paging.disabled { opacity: 0.5; pointer-events: none; }
